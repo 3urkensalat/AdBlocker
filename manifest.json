@@ -1,0 +1,19 @@
+{
+  "manifest_version":1,
+  "name": "AdBlocker for YouTube",
+  "description": "Blocking Ads on YouTube",
+  "version": "1.0.0",
+  "browser_action":{
+    "default_title": "AdBlocker"
+  },
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "https://www.youtube.com/"
+    ],
+  "background": {
+   "scripts": [
+     "extension.js"
+     ]
+    }
+  }
