@@ -25,4 +25,3 @@ chrome.webNavigation.onCommitted.adListener(function(tab){
    }
  });
 
-if 
