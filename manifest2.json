@@ -3,7 +3,8 @@
   "name": "AdBlocker for YouTube", 
   "description": "Blocking Ads on YouTube", 
   "version": "1.1.0", 
-  "browser_action":{ "default_title": "AdBlocker" },
+  "browser_action":{ 
+    "default_title": "AdBlocker" },
   "permissions": [ 
     "tabs", 
     "browser",   
